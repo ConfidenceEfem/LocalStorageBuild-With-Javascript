@@ -1,0 +1,114 @@
+.body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+
+  /* justify-content: center; */
+  align-items: center;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  background-color: #fafcff;
+  /* flex-direction: column; */
+}
+
+.submitDetail{
+  border:none;
+  outline: none;
+  padding: 12px 17px;
+  font-size: 11px;
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border-radius: 2px;
+transition: all 350ms;
+}
+.submitDetail:hover{
+  transform: scale(1.02);
+  
+
+}
+
+.InputHold input{
+  width: 250px;
+  height: 35px;
+  margin: 10px 0;
+  padding: 5px;
+
+}
+
+.FormHolder {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.cardHolder {
+  display: flex;
+  width: 90%;
+  height: 100%;
+  flex-wrap: wrap;
+}
+.card {
+  width: 300px;
+  height: 320px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 7px;
+  background-color: white;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+.name {
+  font-weight: 600;
+  font-size: 15px;
+  /* background-color: red; */
+  display: flex;
+  margin: 10px 0;
+  font-family: sans-serif;
+}
+.image {
+  width: 100%;
+  height: 200px;
+}
+.image {
+  width: 100%;
+  height: 200px;
+}
+.image img {
+  width: 100%;
+  height: 200px;
+}
+.class {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: sans-serif;
+}
+
+.buttonHold {
+  display: flex;
+  margin-top: 15px;
+  width: 40%;
+  justify-content: space-between;
+}
+.minus {
+  padding: 4px 12px;
+  background-color: red;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.add {
+  padding: 4px 12px;
+  background-color: blue;
+  border: none;
+  outline: none;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
